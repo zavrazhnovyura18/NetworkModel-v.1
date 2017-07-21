@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<pc id="525150733" networkName="First">
+    <IP>32.4.5.6</IP>
+    <numOfConnections>2</numOfConnections>
+    <costs>120.0</costs>
+    <Connections>
+        <connect xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="hub" id="151023674" networkName="First">
+            <channelCapacity>2.0</channelCapacity>
+            <numOfConnections>4</numOfConnections>
+            <ConnectNode>
+                <node link="922831543" nameNetwork="First"/>
+                <node link="1359829902" nameNetwork="First"/>
+            </ConnectNode>
+        </connect>
+    </Connections>
+</pc>

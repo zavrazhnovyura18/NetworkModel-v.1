@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<router id="2018865619" networkName="Example">
+    <IP>1.1.1.1</IP>
+    <numOfConnections>3</numOfConnections>
+    <costs>120.0</costs>
+    <Connections>
+        <connect xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="cable" id="1742468343" networkName="Example">
+            <channelCapacity>2.0</channelCapacity>
+            <ConnectNode link="599960304" nameNetwork="Example"/>
+        </connect>
+    </Connections>
+</router>

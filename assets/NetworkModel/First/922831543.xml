@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<switch id="922831543" networkName="First">
+    <IP>2.23.2.3</IP>
+    <numOfConnections>3</numOfConnections>
+    <costs>210.0</costs>
+    <Connections>
+        <connect xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="cable" id="963889914" networkName="First">
+            <channelCapacity>0.23</channelCapacity>
+            <ConnectNode link="922503240" nameNetwork="First"/>
+        </connect>
+        <connect xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="hub" id="525519554" networkName="First">
+            <channelCapacity>2.0</channelCapacity>
+            <numOfConnections>4</numOfConnections>
+            <ConnectNode>
+                <node link="525150733" nameNetwork="First"/>
+                <node link="1359829902" nameNetwork="First"/>
+            </ConnectNode>
+        </connect>
+    </Connections>
+</switch>

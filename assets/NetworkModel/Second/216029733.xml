@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<pc id="216029733" networkName="Second">
+    <IP>1.2.1.4</IP>
+    <numOfConnections>2</numOfConnections>
+    <costs>170.0</costs>
+    <Connections>
+        <connect xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="cable" id="700394578" networkName="Second">
+            <channelCapacity>2.2</channelCapacity>
+            <ConnectNode link="1413370668" nameNetwork="Second"/>
+        </connect>
+        <connect xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="cable" id="1531812513" networkName="Second">
+            <channelCapacity>1.4</channelCapacity>
+            <ConnectNode link="706964154" nameNetwork="Second"/>
+        </connect>
+    </Connections>
+</pc>

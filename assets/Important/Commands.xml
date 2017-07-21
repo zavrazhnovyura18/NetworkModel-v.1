@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<invoker>
+    <commandMap>
+        <entry>
+            <TextCommand>^SELECT NODES NETWORK = \{[A-Za-z]{5,}\}, FLAG = \{[0-1]\}$</TextCommand>
+            <SelectNodes/>
+        </entry>
+        <entry>
+            <TextCommand>^FIND ROUTE NETWORK = \{[A-Za-z]{5,}\} BETWEEN \{[0-9]{1,}\} AND \{[0-9]{1,}\} WITH \{[A-Za-z]{7,}Provider\}$</TextCommand>
+            <FindRoute/>
+        </entry>
+        <entry>
+            <TextCommand>^EXIT( \{ON SAVE\}){0,1}$</TextCommand>
+            <Exit/>
+        </entry>
+        <entry>
+            <TextCommand>^ADD NODE TYPE = \{[A-Za-z]{2,}\}, IP = \{([01]?\d\d?|2[0-4]\d|25[0-5])\.([01]?\d\d?|2[0-4]\d|25[0-5])\.([01]?\d\d?|2[0-4]\d|25[0-5])\.([01]?\d\d?|2[0-4]\d|25[0-5])\}, numConn = \{[1-9]\}, costs = \{[0-9]{1,}\}, networkName = \{[A-Za-z]{5,}\}$</TextCommand>
+            <AddNode/>
+        </entry>
+        <entry>
+            <TextCommand>^DELETE NODE ID = \{[0-9]{1,}\}, NETWORK = \{[A-Za-z]{5,}\}$</TextCommand>
+            <DeleteNode/>
+        </entry>
+        <entry>
+            <TextCommand>^ADD LINKS IN NETWORK = \{[A-Za-z]{5,}\}, TYPE = \{Cable\}, channelCapacity = \{[0-9]{1,4}\} BETWEEN FID = \{[0-9]{1,}\} AND SID = \{[0-9]{1,}\}$</TextCommand>
+            <AddLinks/>
+        </entry>
+        <entry>
+            <TextCommand>^ADD LINKS IN NETWORK = \{[A-Za-z]{5,}\}, TYPE = \{Hub\}, channelCapacity = \{[0-9]{1,4}\}, numConn = \{[1-9]\} BETWEEN \{[0-9,]{1,}\}$</TextCommand>
+            <AddLinks/>
+        </entry>
+        <entry>
+            <TextCommand>^CREATE NETWORK = \{[A-Za-z]{5,}\}$</TextCommand>
+            <CreateNetwork/>
+        </entry>
+    </commandMap>
+</invoker>

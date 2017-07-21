@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<router id="1901056991" networkName="First">
+    <IP>1.3.3.3</IP>
+    <numOfConnections>4</numOfConnections>
+    <costs>100.0</costs>
+    <Connections>
+        <connect xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="cable" id="898143290" networkName="First">
+            <channelCapacity>0.3</channelCapacity>
+            <ConnectNode link="922503240" nameNetwork="First"/>
+        </connect>
+        <connect xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="cable" id="818261913" networkName="First">
+            <channelCapacity>0.23</channelCapacity>
+            <ConnectNode link="1003964013" nameNetwork="First"/>
+        </connect>
+    </Connections>
+</router>

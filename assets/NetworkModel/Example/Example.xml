@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<network name="Example">
+    <Nodes>
+        <node link="2018865619" nameNetwork="Example"/>
+        <node link="599960304" nameNetwork="Example"/>
+        <node link="243719646" nameNetwork="Example"/>
+        <node link="710342603" nameNetwork="Example"/>
+    </Nodes>
+</network>

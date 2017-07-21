@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<firewall id="710342603" networkName="Example">
+    <IP>1.1.1.4</IP>
+    <numOfConnections>5</numOfConnections>
+    <costs>115.0</costs>
+    <Connections>
+        <connect xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="hub" id="538930881" networkName="Example">
+            <channelCapacity>3.0</channelCapacity>
+            <numOfConnections>4</numOfConnections>
+            <ConnectNode>
+                <node link="599960304" nameNetwork="Example"/>
+                <node link="243719646" nameNetwork="Example"/>
+            </ConnectNode>
+        </connect>
+    </Connections>
+</firewall>
